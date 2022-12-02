@@ -8,13 +8,14 @@ This project aims to find the environmental variables that best explain solar po
 - Correlation Plots
 - Regression Models (from sklearn):
 	- LinearRegression
-	- MLPRegressor
+	- GeneralizedLinearRegressor
+	- MultiLayerNNRegressor
 	- RandomForestRegressor
 	- HistGradientBoostingRegressor
 	- GradientBoostingRegressor
 	- AdaBoostRegressor
-	- StackingRegressor
 	- DecisionTreeRegressor
+	- StackingRegressor
 
 ### Technologies
 - Python
@@ -32,7 +33,9 @@ This dataset contains power output from horizontal photovoltaic panels located a
 Solar energy is a rapidly growing market. In order to maintain solar plant sites and produce the required amount of energy, knowing solar power output is vital. This is normally modeled with irradiance data. But irradiance measurements require specific sensors, which take a long time to deploy and have a high cost. Hence, finding a way to predict solar power output with existing weather and location data would certainly be beneficial. We use Exploratory Data Analysis (EDA) along with a variety of regression models to dissect the variables that best explain solar power output. We conclude that these variables are: climate type, ambient temperature, humidity, and cloud ceiling.
 
 ## Repository Contents
+Reminder: To run the `.py` files, make sure that the dataset `Pasion et al dataset.csv` name is correct and is put under the same folder with the `.py` files.
 - `Pasion et al dataset.csv`: data 
 - `eda_notebook.ipynb`: jupyter notebook containing all EDA; can also be viewed with Google Colab [here](https://colab.research.google.com/drive/1lwJoR0XxA76lOJT2g6u6Y5HqkZaizeZT?usp=sharing)
-- `kde_plot.py`, `model_testing.py`: external functions used for EDA and predictions
+- `kde_plot.py`: contains function that produces kernel density plots for different climate's power output distribution.
+- `model_testing.py`: contains implementation of different machine learning models, construction of the stacked model we use, and a series of testings on the models' performance in different climate types.
 - `presentation.pdf`: PDF of our presentation
