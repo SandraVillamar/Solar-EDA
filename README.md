@@ -1,4 +1,4 @@
-# Solar EDA
+![cooltext424750920217702](https://user-images.githubusercontent.com/15370068/205403747-eab3181d-9297-499e-9ee8-90a993d4732e.png)
 
 ## Objective
 This project aims to find the environmental variables that best explain solar power output, in the absence of irradiation data.
