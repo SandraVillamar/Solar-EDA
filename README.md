@@ -58,8 +58,8 @@
 &nbsp;
 
 ## Dataset
-### We will be using the following dataset: Williams, Jada; Wagner, Torrey (2019), “Northern Hemisphere Horizontal Photovoltaic Power Output Data for 12 Sites”, Mendeley Data, V5, doi: 10.17632/hfhwmn8w24.5 
-### This dataset contains power output from horizontal photovoltaic panels located at 12 Northern hemisphere sites over 14 months. It has 21K observations of 17 variables as follows: location, date, time sampled, latitude, longitude, altitude, year and month, month, hour, season, humidity, ambient temperature, power output from the solar panel, wind speed, visibility, pressure, and cloud ceiling. 
+#### We will be using the following dataset: Williams, Jada; Wagner, Torrey (2019), “Northern Hemisphere Horizontal Photovoltaic Power Output Data for 12 Sites”, Mendeley Data, V5, doi: 10.17632/hfhwmn8w24.5 
+#### This dataset contains power output from horizontal photovoltaic panels located at 12 Northern hemisphere sites over 14 months. It has 21K observations of 17 variables as follows: location, date, time sampled, latitude, longitude, altitude, year and month, month, hour, season, humidity, ambient temperature, power output from the solar panel, wind speed, visibility, pressure, and cloud ceiling. 
 ### Variables
 1. Location:
     * Latitude
@@ -85,13 +85,13 @@
 &nbsp;
 &nbsp;
 ## Proposed Solution
-### We plan to conduct an in-depth EDA in order to find the features that best explain power output. Then, we will implement four ML models and use these features as input to predict power output. We plan to build the following models and compare their performances: weighted linear regression, random forest, gradient boosting, and DNN. 
+ #### We plan to conduct an in-depth EDA in order to find the features that best explain power output. Then, we will implement four ML models and use these features as input to predict power output. We plan to build the following models and compare their performances: weighted linear regression, random forest, gradient boosting, and DNN. 
 
 &nbsp;
 &nbsp;
 
 ## Real World Application
-### Our solution can provide data-driven support on the cost revenue analysis for solar energy companies, especially those who cannot collect large-scale irradiance information in a short time. Solar energy is a rapidly growing market. In order to maintain solar plant sites and produce the required amount of energy, knowing solar power output is vital. This is normally modeled with irradiance data. But irradiance measurements require specific sensors, which take a long time to deploy and have a high cost. Hence, finding a way to predict solar power output with existing weather and location data would certainly be beneficial. 
+#### Our solution can provide data-driven support on the cost revenue analysis for solar energy companies, especially those who cannot collect large-scale irradiance information in a short time. Solar energy is a rapidly growing market. In order to maintain solar plant sites and produce the required amount of energy, knowing solar power output is vital. This is normally modeled with irradiance data. But irradiance measurements require specific sensors, which take a long time to deploy and have a high cost. Hence, finding a way to predict solar power output with existing weather and location data would certainly be beneficial. 
 
 &nbsp;
 &nbsp;
