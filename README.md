@@ -7,14 +7,18 @@ This project aims to find the environmental variables that best explain solar po
 - Data Visualization
 - Correlation Plots
 - Regression Models (from sklearn):
+  Tested Models:
 	- LinearRegression
 	- GeneralizedLinearRegressor
 	- MultiLayerNNRegressor
+	- KNNRegressor
+	- DecisionTreeRegressor
 	- RandomForestRegressor
 	- HistGradientBoostingRegressor
 	- GradientBoostingRegressor
 	- AdaBoostRegressor
-	- DecisionTreeRegressor
+	- StackingRegressor
+   Optimal Model:
 	- StackingRegressor
 
 ### Technologies
@@ -37,5 +41,5 @@ Reminder: To run the `.py` files, make sure that the dataset `Pasion et al datas
 - `Pasion et al dataset.csv`: data 
 - `eda_notebook.ipynb`: jupyter notebook containing all EDA; can also be viewed with Google Colab [here](https://colab.research.google.com/drive/1lwJoR0XxA76lOJT2g6u6Y5HqkZaizeZT?usp=sharing)
 - `kde_plot.py`: contains function that produces kernel density plots for different climate's power output distribution.
-- `model_testing.py`: contains implementation of different machine learning models, construction of the stacked model we use, and a series of testings on the models' performance in different climate types.
+- `model_testing.py`: contains implementation of different machine learning models, construction of the optimal "stacking" model which achieves SOTA among all models, and a series of testings on the models' performance in different climate types. The testing results is stored in a dataframe.
 - `presentation.pdf`: PDF of our presentation
