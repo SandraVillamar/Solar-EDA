@@ -19,7 +19,7 @@ This project aims to find the environmental variables that best explain solar po
 	- AdaBoostRegressor
 	- StackingRegressor
    - Optimal Model:
-	- StackingRegressor
+        	- StackingRegressor
 
 ### Technologies
 - Python
