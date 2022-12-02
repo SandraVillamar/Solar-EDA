@@ -7,7 +7,7 @@ This project aims to find the environmental variables that best explain solar po
 - Data Visualization
 - Correlation Plots
 - Regression Models (from sklearn):
-  Tested Models:
+  - Tested Models:
 	- LinearRegression
 	- GeneralizedLinearRegressor
 	- MultiLayerNNRegressor
@@ -18,7 +18,7 @@ This project aims to find the environmental variables that best explain solar po
 	- GradientBoostingRegressor
 	- AdaBoostRegressor
 	- StackingRegressor
-   Optimal Model:
+   - Optimal Model:
 	- StackingRegressor
 
 ### Technologies
